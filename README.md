@@ -17,7 +17,7 @@ Tujuan utama dari project ini adalah untuk memahami konsep dasar Flutter seperti
 ![Meal Items](assets/images/Meal-Item-Per-Category.png)
 ![Detail](assets/images/Meals-Detail.png)
 ![Side Menu](assets/images/side-menu.png)
-![filterl](assets/images/filter.png)
+![filter](assets/images/filters-data.png)
 ## 🚀 Features
 
 ### 🗂️ Categories
