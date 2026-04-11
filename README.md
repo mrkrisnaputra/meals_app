@@ -98,6 +98,32 @@ lib/
 
 ### 3. State Management (Basic)
 - Mengelola state filter
+
+---
+
+## 🧠 State Management dengan Provider Riverpod
+
+Dalam proyek ini, kita belajar menggunakan Provider Riverpod untuk mengelola state aplikasi secara lebih advanced. Riverpod adalah library state management yang modern dan powerful untuk Flutter.
+
+### Konsep Utama yang Dipelajari:
+- **Provider**: Container untuk state yang dapat diakses dari berbagai widget
+- **StateNotifier**: Class untuk mengelola state dan logika bisnis
+- **Consumer & ConsumerWidget**: Widget yang secara otomatis mendengarkan perubahan state
+- **Scoped Providers**: Membatasi scope provider ke bagian tertentu dari widget tree
+
+### Implementasi di Proyek:
+- `MealsProvider`: Mengelola daftar makanan, filter, dan pencarian
+- `FavoritesProvider`: Mengelola daftar makanan favorit pengguna
+- `FiltersProvider`: Mengelola preferensi filter (gluten-free, lactose-free, dll.)
+
+### Keuntungan Menggunakan Riverpod:
+- **Type-safe**: Mengurangi error runtime dengan type checking
+- **Testable**: Mudah untuk unit testing providers
+- **Dependency Injection**: Inject dependencies dengan mudah
+- **Performance**: Optimasi rebuild hanya pada widget yang perlu
+- **Developer Experience**: Hot reload support dan debugging tools
+
+---
 - Mengirim data antar screen
 
 ### 4. Data Modeling
@@ -130,3 +156,6 @@ Project ini dibuat untuk pembelajaran Flutter dasar.
 - State management (Provider/Riverpod)
 - Dark mode
 - Favorite feature
+
+
+import 'package:flutter_riverpod/legacy.dart';
