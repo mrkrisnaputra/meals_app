@@ -125,6 +125,29 @@ Dalam proyek ini, kita belajar menggunakan Provider Riverpod untuk mengelola sta
 - **Developer Experience**: Hot reload support dan debugging tools
 
 ---
+
+## 🧠 Animations
+
+Dalam proyek ini, kita belajar mengimplementasikan animasi untuk meningkatkan pengalaman pengguna. Animasi membantu membuat transisi yang halus dan menarik.
+
+### Konsep Utama yang Dipelajari:
+- **AnimationController**: Mengontrol durasi dan nilai animasi (0.0 sampai 1.0)
+- **Tween**: Mendefinisikan rentang nilai animasi (misalnya Offset untuk posisi)
+- **CurvedAnimation**: Menambahkan kurva easing untuk animasi yang lebih natural
+- **AnimatedBuilder**: Widget yang membangun ulang saat animasi berubah
+- **Implicit Animations**: Animasi otomatis dengan widget seperti AnimatedContainer
+
+### Implementasi di Proyek:
+- **Slide-in Animation**: Grid kategori muncul dengan efek slide dari bawah ke atas
+- Menggunakan `SlideTransition` dengan `Tween<Offset>` dan `CurvedAnimation`
+- Animasi dipicu saat screen pertama kali dimuat
+
+### Teknik yang Digunakan:
+- `SingleTickerProviderStateMixin` untuk mengelola AnimationController
+- `initState` dan `dispose` untuk lifecycle animasi
+- Optimasi dengan `AnimatedBuilder` untuk menghindari rebuild seluruh widget tree
+
+---
 - Mengirim data antar screen
 
 ### 4. Data Modeling
