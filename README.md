@@ -13,11 +13,12 @@ Tujuan utama dari project ini adalah untuk memahami konsep dasar Flutter seperti
 
 ---
 ## 📸 Screenshots
-![Home](assets/images/home.png)
-![Meal Items](assets/images/Meal-Item-Per-Category.png)
-![Detail](assets/images/Meals-Detail.png)
-![Side Menu](assets/images/side-menu.png)
-![filter](assets/images/filters-data.png)
+<p align="center">
+  <img src="assets/images/home.png" width="200"/>
+  <img src="assets/images/Meal-Item-Per-Category.png" width="200"/>
+  <img src="assets/images/Meals-Detail.png" width="200"/>
+  <img src="assets/images/filters-data.png" width="200"/>
+</p>
 ## 🚀 Features
 
 ### 🗂️ Categories
